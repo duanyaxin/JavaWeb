@@ -1,0 +1,277 @@
+这回，我们介绍了最受科技公司青睐的一些开源项目。这些主要是面向企业的应用软件，涵盖大数据、云计算、开发工具、系统管理和版本控制等几大类别。
+
+与往常一样，如果你知道另外哪些工具应该添加到这份名单，欢迎留言交流。
+
+大数据
+
+1. Hadoop
+
+Apache 主持的这个项目是最广为人知的大数据工具。众多公司为 Hadoop 提供相关产品或商业支持，包括亚马逊网络服务、Cloudera、Hortonworks、IBM、Pivotal、Syncsort 和 VMware。知名用户包括：阿里巴巴、美国在线、电子港湾、Facebook、谷歌、Hulu、领英、Spotify、推特和雅虎。
+支持的操作系统：Windows、Linux 和 OS X
+相关网站：http://hadoop.apache.org
+2. Hypertable
+
+Hypertable 在互联网公司当中非常流行，它由谷歌开发，用来提高数据库的可扩展性。用户包括百度、电子港湾、Groupon 和 Yelp。它与 Hadoop 兼容，提供商业支持和培训。
+支持的操作系统：Linux 和 OS X
+相关网站：http://www.hypertable.com
+3. Mesos
+
+Apache Mesos 是一种资源抽象工具，有了它，企业就可以鼗整个数据中心当成一个资源池，它在又在运行 Hadoop、Spark 及类似应用程序的公司当中很流行。使用它的企业组织包括：Airbnb、欧洲原子核研究组织（CERN）、思科、Coursera、Foursquare、Groupon、网飞（Netflix）、推特和优步。
+支持的操作系统：Linux 和 OS X
+相关网站：http://mesos.apache.org
+4. Presto
+
+Presto 由 Facebook 开发，自称是“一款开源分布式 SQL 查询引擎，用于对大大小小（从 GB 级到 PB 级）的数据源运行交互式分析查询。”Facebook 表示，它将 Presto 用于对 300PB 大小的数据仓库执行查询，其他用户包括 Airbnb 和 Dropbox。
+支持的操作系统：Linux
+相关网站：https://prestodb.io
+5. Solr
+
+这种“快若闪电”的企业搜索平台声称高度可靠、扩展和容错。使用它的公司包括：AT&T、Ticketmaster、康卡斯特、Instagram、网飞、IBM、Adobe 和 SAP Hybris。
+支持的操作系统：与操作系统无关
+相关网站：http://Lucene.apache.org/solr/
+6. Spark
+
+Apache Spark 声称，“它在内存中运行程序的速度比 Hadoop MapReduce 最多快 100 倍，在磁盘上快 10 倍。”Spark“支持”的企业组织包括：亚马逊、百度、Groupon、日立解决方案、IBM、MyFitnessPal、诺基亚和雅虎。
+支持的操作系统：Windows、Linux 和 OS X
+相关网站：http://spark.apache.org
+7. Storm
+
+正如 Hadoop 用来处理批量数据，Apache Storm 用来处理实时数据。官方网站上显示用户包括：天气频道、推特、雅虎、WebMD、Spotify、威瑞信（Verisign）、Flipboard 和 Klout。
+支持的操作系统：Linux
+相关网站：https://storm.apache.org
+云计算
+
+8. Cloud Foundry
+
+Cloud Foundry 提供用于构建平台即服务的开源工具。它声称“由行业领袖为行业领袖构建”，其支持者包括 IBM、 Pivotal、惠普企业、VMware、英特尔、SAP 和 EMC。
+支持的操作系统：Linux
+相关网站：https://www.cloudfoundry.org
+9. CloudStack
+
+这个交钥匙 IaaS 解决方案构成了许多公共云和私有云的基础。它的用户极多，包括阿尔卡特－朗讯、苹果、Autodesk、英国电信、冠群科技、思杰、Cloudera、戴尔、富士通、SAP 和韦里逊。
+支持的操作系统：与操作系统无关
+相关网站：http://cloudstack.apache.org
+10. OpenStack
+
+这种很受欢迎的云计算平台声称，“世界上成百上千个大品牌”每天依赖它。支持者包括：AT&T、Ubuntu、惠普企业、IBM、英特尔、Rackspace、红帽、SUSE、思科、戴尔、EMC、赛门铁克及另外许多知名科技公司。
+支持的操作系统：与操作系统无关
+相关网站：http://www.openstack.org
+11. Scalr
+
+这种云管理平台备受市场研究公司的好评，它简化了管理多个云环境的过程。知名用户包括 Expedia、三星、美国宇航局喷气推进实验室、埃森哲、索尼和 Autodesk。
+支持的操作系统：Linux
+相关网站：http://www.scalr.com
+容器
+
+12. Docker
+
+Docker 在相对新兴的容器领域迅速确立起了主导平台这一地位。科技界的许多大牌公司在构建或提供扩展或使用 Docker 技术的产品，包括亚马逊、微软、IBM、惠普企业、红帽、Rackspace 和 Canonical。
+支持的操作系统：Windows、Linux 和 OS X
+相关网站：https://www.docker.com
+内容管理
+
+13. DNN
+
+这款内容管理解决方案之前名为 DotNetNuke，承诺构建丰富的交互式网站时，只要花较少的精力，就能收到显著的成效。用户包括佳能、时代华纳有线电视、德州仪器和美国银行。
+支持的操作系统：Windows
+相关网站：http://www.dnnsoftware.com
+14. Drupal
+
+Drupal 声称，98000 多个开发人员在为这个极其流行的内容管理系统积极贡献代码。支持者包括微软、Zend、Fastly 和 New Relic，其内容市场有数百家公司参与其中，它们提供了相关的产品和服务。
+支持的操作系统：与操作系统无关
+相关网站：https://www.drupal.org
+15. Joomla
+
+Joomla 为数百万个网站提供平台，其下载量超过了 5000 万人次。许多用户当中就有这些公司：电子港湾、巴诺书店、MTV 和标致。
+支持的操作系统：与操作系统无关
+相关网站：https://www.joomla.org
+16. MediaWiki
+
+MediaWiki 以维基百科使用的软件而出名，它还为百度、Vistaprint、Novell、英特尔和美国宇航局支持网站。它是构建可编辑网页的不错选择，许多企业组织用它来构建内部知识库。
+支持的操作系统：Windows、Linux/Unix 和 OS X
+相关网站：https://www.mediawiki.org/wiki/MediaWiki
+数据库
+
+17. Cassandra
+
+这种 NoSQL 数据库由 Facebook 开发，其用户包括苹果、欧洲原子核研究组织（CERN）、康卡斯特、电子港湾、GitHub、GoDaddy、Hulu、Instagram、Intuit、网飞、Reddit 及其他科技公司。它支持极其庞大的数据集，声称拥有非常高的性能和出色的耐用性和弹性。可通过第三方获得支持。
+支持的操作系统：与操作系统无关
+相关网站：http://cassandra.apache.org
+18. CouchDB
+
+CouchDB 为 Web 而开发，这种 NoSQL 数据库将数据存储在 JSON 文档中，这类文档可通过 HTTP 来加以查询，并用 JavaScript 来处理。Cloudant 现在归 IBM 所有，它提供一款专业人员支持的软件版本，用户包括：三星、Akamai、Expedia、微软游戏工作室及其他公司。
+支持的操作系统：Windows、Linux、OS X 和安卓
+相关网站：http://couchdb.apache.org
+19. MongoDB
+
+MongoDB 是一种 NoSQL 数据库，声称“针对关键任务型部署环境进行了优化”，用户包括 Foursquare、《福布斯》、Pebble、Adobe、领英、eHarmony 及其他公司。提供收费的专业版和企业版。
+支持的操作系统：Windows、Linux、OS X 和 Solaris
+相关网站：http://www.mongodb.org
+20. MySQL
+
+MySQL 自称是“世界上最流行的开源数据库”，备受众多互联网公司的青睐，比如 YouTube、贝宝、谷歌、Facebook、推特、电子港湾、领英、优步和亚马逊。除了免费社区版外，它还有多款收费版。最新更新版声称速度比老版本快三倍。
+支持的操作系统：Windows、Linux、Unix 和 OS X
+相关网站：http://www.mysql.com
+21. Neo4j
+
+Neo4J 自诩为“世界上领先的图形数据库”，用于欺诈检测、推荐引擎、社交网站、主数据管理及更多领域。用户包括电子港湾、沃尔玛、思科、惠普、埃森哲、CrunchBase、eHarmony、Care.com 及另外许多企业组织。
+支持的操作系统：Windows 和 Linux
+相关网站：http://neo4j.com
+开发工具
+
+22. Bugzilla
+
+Bugzilla 是开源社区的宠儿，用户包括 Mozilla、Linux 基金会、GNOME、KDE、Apache、LibreOffice、Open Office、Eclipse、红帽、Novell 及其他公司。这款软件缺陷追踪系统（bugtracker）的重要功能包括：高级搜索功能、电子邮件通知、预定报告、时间追踪、出色的安全及更多特性。
+支持的操作系统：Windows、Linux 和 OS X
+相关网站：https://www.bugzilla.org
+23. Eclipse
+
+Eclipse 项目最为知名的是，它是一种大受欢迎的面向 Java 的集成开发环境（IDE），它还提供面向C/C++和 PHP 的 IDE，此外提供另外一大批开发工具。主要支持者包括冠群科技、谷歌、IBM、甲骨文、红帽和 SAP。
+支持的操作系统：与操作系统无关
+相关网站：http://www.eclipse.org
+24. Ember.js
+
+这种框架用于“构建野心勃勃的 Web 应用程序”，旨在为 JavaScript 开发人员提高工作效率。官方网站上显示用户包括雅虎、Square、Livingsocial、Groupon、Twitch、TED、网飞、Heroku 和微软。
+支持的操作系统：与操作系统无关
+相关网站： http://emberjs.com
+25. Grunt
+
+Grunt 是一种 JavaScript 任务运行工具，有助于自动处理重复性的开发任务。使用它的知名科技公司包括：Adobe、推特、Mozilla、Cloudant 和 WordPress。
+支持的操作系统：与操作系统无关
+相关网站：http://gruntjs.com
+26. LoopBack
+
+这个 Node.js 框架旨在让用户很容易构建 REST API，并连接到后端数据存储区。知名用户包括 GoDaddy、美国能源部和赛门铁克。
+支持的操作系统：Windows、Linux、OS X、安卓和 iOS
+相关网站：http://loopback.io
+27. Node.js
+
+Node.js 的成名之处在于，它让开发人员可以使用 JavaScript，编写服务器端应用程序。开发工作之前由 Joyent 管控，现在交由 Node.js 基金会监管。用户包括 IBM、微软、雅虎、SAP、领英、贝宝和网飞。
+支持的操作系统：Windows、Linux 和 OS X
+相关网站：https://nodejs.org/en/
+28. PhoneGap
+
+Apache Cordova 是一种开源框架，让开发人员可以使用 HTML、CSS 和 JavaScript 等 Web 技术，构建移动应用程序。PhoneGap 是最受欢迎的 Cordova 发行版。使用某一种 Cordova 发行版的科技公司包括：维基百科、Facebook、 Salesforce、IBM、微软、Adobe 和黑莓。
+支持的操作系统：Window、Linux 和 OS X
+相关网站：http://phonegap.com
+29. React Native
+
+React Native 由 Facebook 开发，这种框架可用于使用 JavaScript 和 React JavaScript 库（同样由 Facebook 开发），构建原生移动应用程序。其他用户包括：《探索》频道和 CBS 体育新闻网。
+支持的操作系统：OS X
+相关网站：http://facebook.github.io/react-native/
+30. Ruby on Rails
+
+这个 Web 开发框架在开发人员当中极其流行，它声称“为确保编程员满意和持续高效地工作进行了优化”。用户包括 Basecamp、推特、Shopify 和 GitHub 等公司。
+支持的操作系统：Windows、Linux 和 OS X
+相关网站：http://rubyonrails.org
+31. Sencha Touch
+
+Sencha Touch 自称是“一种用于构建通用移动应用程序的领先的跨平台移动 Web 应用程序框架，基于 HTML5 和 JavaScript”。它既有开源许可证版本，也有商业许可证版本。据官方网站声称，《财富》100 强中 60% 使用它。
+支持的操作系统：与操作系统无关
+相关网站：https://www.sencha.com/products/touch/
+32. ZK
+
+索尼、Sun、IBM、Adobe、电子港湾、富士通、梦工厂和优利系统等公司使用这种 Java Web 框架来构建 Web 和移动应用程序。提供收费支付及相关工具。
+支持的操作系统：与操作系统无关
+相关网站：http://www.zkoss.org
+中间件
+
+33. JBoss
+
+红帽的 JBoss 中间件包括各种轻量级、对云计算友好的工具，同时结合、集成和自动化各个企业应用程序和系统。用户包括：橡树岭国家实验室、日产、思科、冠群科技、AMD 及其他公司。
+支持的操作系统：Linux
+相关网站：http://www.redhat.com/en/technologies/jboss-middleware
+操作系统
+
+34.  红帽企业版 Linux
+
+红帽最知名的产品就是其旗舰 Linux 发行版，这需要付费订购。据该公司声称，《财富》全球 500 强公司中超过 90% 在使用红帽产品。
+相关网站：http://www.redhat.com/en/technologies/linux-platforms/enterprise-linux
+35. SUSE Linux 企业版
+
+这款面向企业的 Linux 发行版同样备受大企业的追捧，它也需要付费订购。该公司声称，它有 13000 多个企业用户，包括伦敦证券交易所、SAP、天睿（Teradata）和沃尔格林连锁药店（Walgreens）。
+相关网站：https://www.suse.com
+36. Ubuntu
+
+Ubuntu 提供广受欢迎的 Linux 发行版，有多个版本：桌面版、服务器版、云版、手机版、平板电脑版和物联网版。声称用户包括亚马逊、IBM、维基百科和英伟达。
+相关网站：http://www.ubuntu.com/index_kylin
+项目管理
+
+37. Project Libre
+
+这个屡获奖项的项目是微软 Project 的替代者，下载量已有近 200 万人次。它有一大批用户，包括 IBM、埃森哲、美国能源部、思科、ATI 和 AMD。
+支持的操作系统：Windows、Linux 和 OS X
+相关网站：http://www.projectlibre.org
+存储
+
+38. FreeNAS
+
+这款开源网络附加存储（NAS）软件声称，它备受联合国、迪士尼互动媒体集团、路透社和 Dr. Phil 等用户的“喜爱”。它可以安装到几乎任何硬件上，而 TrueNAS 提供的预先构建的设备就基于该技术。
+支持的操作系统：FressBSD
+相关网站：http://www.freenas.org
+39. Gluster
+
+Gluster 是一种可高度扩展的网络文件系统，适合云计算环境。红帽提供一款基于该技术的收费产品，用户包括卡西欧和 Intuit。
+支持的操作系统：Linux
+相关网站：http://www.gluster.org
+40. Lustre
+
+Lustre 是另一种可高度扩展的文件系统，旨在支持高性能计算（HPC）环境。一些最早采用它的用户包括美国的几大国家实验室：劳伦斯·利物莫尔国家实验室、桑迪亚国家实验室、橡树岭国家实验室和洛斯阿拉莫斯国家实验室。
+支持的操作系统：Linux
+相关网站：http://lustre.org
+系统管理工具
+
+41. Ansible
+
+Ansible 现在归红帽所有，它自称是“一种异常简单的 IT 自动化引擎，可以使云服务配置、配置管理、应用程序部署、服务内部的编排以及其他许多 IT 操作实现自动化。”使用它的科技公司包括：思科、瞻博网络、Evernote、推特、威瑞信、GoPro、EA Sports、Atlassian 和韦里逊。它既有免费版，也有收费版。
+支持的操作系统：Linux
+相关网站：http://www.ansibleworks.com
+42. Chef
+
+作为另一款自动化工具，Chef 支持开发运维方法，同时改善了速度、协作和安全性。拥有免费版和收费版。官方网站上显示用户包括：塔吉特（Target）、诺德斯特龙（Nordstrom）、Facebook、Etsy、IGM、雅虎和彭博社。
+支持的操作系统：Windows、Linux 和 OS X
+相关网站：https://www.chef.io/chef/
+43. Hudson
+
+Hudson 在使用敏捷和开发运维方法的企业当中很流行，它是一种可扩展的持续集成服务器系统，可以监控重复作业的执行。这个项目得到了 Eclipse 基金会、甲骨文、Atlassian 和 YourKit 的支持。
+支持的操作系统：与操作系统无关
+相关网站：http://hudson-ci.org
+44. Puppet
+
+Puppet 号称“使用最广泛的开源 IT 管理系统”，它包括 40 多个基础设施管理方面的开源项目。除了开源版本外，它还有一款收费的企业版本。它声称，用户包括 25000 多家企业，比如迪士尼、沃尔玛、1-800-Flowers.com、Heartland Payment Systems、盖蒂图片社（Getty Images）和 Yelp。
+支持的操作系统：Windows、Linux、Unix 和 OS X
+相关网站：https://puppetlabs.com/puppet/open-source-projects
+版本控制
+
+45. Bazaar
+
+Bazaar 由 Canonical 管理，被许多开源项目所使用，包括 Ubuntu、 GNU 基金会、Linux 基金会、MySQL、Bugzilla、 Debian 和 Maria DB。它简单易学，支持任何工作流程和工作区间模式，承诺存储效率很高、速度很快。
+支持的操作系统：Windows、Linux 和 OS X
+相关网站：http://bazaar.canonical.com/en/
+46. Git
+
+这个版本控制系统已变得极受欢迎，这一方面归功于 GitHub 服务的使用日益广泛。使用它的公司和项目包括：谷歌、Facebook、微软、推特、领英、网飞、Perl、PostgreSQL、安卓、Rails、QT、Gnome 和 Eclipse。
+支持的操作系统：Windows、Linux 和 OS X
+相关网站：http://git-scm.com
+47. Mercurial
+
+Mercurial 是一种分布式源代码控制管理工具，专注于帮助团队更轻松、更快速地协同工作。用户包括 OpenJDK 和 NetBeans 等各大项目。
+支持的操作系统：Windows、Linux 和 OS X
+相关网站：https://www.mercurial-scm.org
+48. Subversion
+
+这个企业级版本控制系统得到 Apache 的支持，首次发布于 2000 年。使用它的企业组织包括 Apache 软件基金会自己、Hobby Lobby、Mono、Plone 和 GNU Enterprise。
+支持的操作系统：Windows、Linux 和 OS X
+相关网站：http://subversion.apache.org
+Web 服务器
+
+49. Apache HTTP Server
+
+Apache 至今已有 20 年多的历史，专利是自 1996 年以来互联网上最受欢迎的 Web 服务器系统。据 W3Techs 声称，目前所有网站中 55.3% 是由 Apache 支持的。
+支持的操作系统：Windows、Linux 和 OS X
+相关网站：http://httpd.apache.org
+50. Nginx
+
+Nginx 的人气也极旺，它被互联网上所有网站中的大约四分之一所使用。除了俄罗斯许多访问量很大的网站外，用户还包括网飞和 WordPress.com。
+支持的操作系统：Windows、Linux 和 OS X
+相关网站：http://nginx.org
